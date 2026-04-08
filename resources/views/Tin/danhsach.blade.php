@@ -7,7 +7,15 @@
 </head>
 <body class="p-4">
     <h2>Danh sách tin</h2>
-    <a href="/tin/them" class="btn btn-primary mb-3">Thêm tin mới</a>
+    <div class="mb-3 d-flex gap-2">
+        <a href="/tin/them" class="btn btn-primary">Thêm tin mới</a>
+        <a href="/hs" class="btn btn-info">Form Học Sinh (Lab 7)</a>
+        <a href="/sv" class="btn btn-success">Form Sinh Viên (Lab 7)</a>
+        <a href="/login" class="btn btn-secondary">Đăng nhập</a>
+        <a href="/register" class="btn btn-outline-secondary">Đăng ký</a>
+        <a href="/download" class="btn btn-warning">Download</a>
+        <a href="/quantri" class="btn btn-danger">Quản trị</a>
+    </div>
     <table class="table table-bordered">
         <thead class="table-dark">
             <tr>
